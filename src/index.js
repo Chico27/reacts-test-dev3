@@ -11,6 +11,14 @@ import "./styles.css";
 //     </div>
 //   );
 // }
-
 const rootElement = document.getElementById("root");
-ReactDOM.render(<h1>Hello World</h1>, rootElement);
+ReactDOM.render(
+  <div>
+    <h1>Hello World!</h1>
+    <p>This is paragraph</p>
+  </div>,
+  rootElement
+);
+
+var myNewP = document.createElement("p");
+myNewP.innerHTML = "This is a paragraph";
